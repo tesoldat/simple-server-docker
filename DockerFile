@@ -1,0 +1,6 @@
+FROM node:lts
+MAINTAINER Michael Liu "tesoldat@gmail.com"
+COPY ./index.js
+WORKDIR /simple-server
+EXPOSE 3000
+CMD [ "node", "index.js"]
